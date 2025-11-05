@@ -82,3 +82,65 @@ In addition, organizations must decide between **augmentation** and **automation
 
 A balanced combination of both ensures scalability, reliability, and ethical deployment of Generative AI solutions.
 
+---
+---
+
+Chapter 2: Foundational concept 
+* What’s the difference between AI, ML, and gen AI?
+* How do different data types, data requirements, and machine learning approaches enable generative AI?
+* What Google Cloud strategies can you use to address the limitations of foundation models?
+* What are the key challenges and factors for responsible and secure AI development and deployment in an organization?
+
+Understanding AI, ML, and generative AI
+Introduction to AI vs ML vs DL vs Gen-AI -> define all 
+* Artificial intelligence (AI): The broad field of building machines that can perform tasks requiring human intelligence.
+* Machine learning (ML): A subset of AI where machines learn from data.
+* Generative AI: An application of AI that creates new content.
+
+ML models analyze the data they've been given, identify patterns, and then calculate the likelihood of different outcomes when presented with new information.
+
+Types of learning
+1. Supervised -> labeled data 
+2. Unsupervised -> unlabelled data 
+3. Semi supervised -> labeled + unlabeled
+4. Reinforcement learning 
+
+ML Lifecycle:
+-  Gather your data
+-  Prepare your data
+-  Train your model
+-  Deploy and predict
+-  Manage your model
+
+Deep learning, generative AI, and foundation models
+Machine learning 
+A broad field that encompasses many different techniques, one of which is deep learning (DL). 
+
+Deep learning 
+A powerful subset of machine learning, distinguished by its use of artificial neural networks. These networks enable the processing of highly complex patterns and the generation of sophisticated predictions.
+
+Types of model that google has 
+Gemini  -> Multimodal
+Imagen -> Image generator LLM
+Veo -> Video generator LLM
+Gemma -> Specialised in SLM that can be customised 
+
+Google strategies for foundation model limitations
+1. RAG
+2. Grounding
+3. Prompt Engineering
+4. Fine tuning
+Feature	RAG	Fine-tuning	Grounding
+Definition	Augments LLMs by retrieving relevant information from external knowledge bases and adding it to the prompt.	Further trains a pre-trained model on a new dataset to adapt it to a specific task or domain.	Connects an AI model's output to verifiable sources of information.
+Process	Retrieve relevant information. → Add it to the prompt. → Generate a response.	Select a pre-trained model. → Gather data. → Train the model. → Evaluate and refine.	Provide access to data sources. → Use RAG or fine-tuning to connect the output.
+Data sources	External knowledge bases (databases, documents, internet).	Task- or domain-specific datasets.	External knowledge bases or specific datasets.
+Relationship to grounding	A specific technique for achieving grounding.	Improves a model's ability to be grounded in specific domains.	The overarching goal, achieved through techniques like RAG and fine-tuning.
+
+Sure AI :
+What does Secure AI mean?
+Secure AI is about preventing intentional harm being done to your applications. This is about protecting AI systems from malicious attacks and misuse
+
+
+Responsible AI
+Responsible AI means ensuring your AI applications avoid intentional and unintentional harm. It’s important to consider ethical development and positive outcomes for the software you develop. The same holds true, and perhaps even more so, for AI applications.
+
